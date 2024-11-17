@@ -1,0 +1,18 @@
+.but{
+    background-color: #c29a72;
+    color: black;
+}
+
+.but:hover{
+    background-color: rgb(209, 160, 114);
+}
+
+.fondo{
+background: #cdaa89;
+}
+
+.cent{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}

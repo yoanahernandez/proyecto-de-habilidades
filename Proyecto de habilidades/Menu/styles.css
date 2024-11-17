@@ -1,0 +1,100 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cdaa89;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    background-color: #8b6f48;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #a68c68;
+    padding: 0.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #333;
+}
+
+/* Secciones del menú */
+
+/* Ocultar secciones por defecto */
+.hidden {
+    display: none;
+}
+
+.menu {
+    padding: 2rem;
+}
+
+.menu-section {
+    background: #fff;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    color: #8b6f48;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para las listas */
+.menu-section ul {
+    list-style-type: disc;
+    margin: 1rem 0 0 1.5rem; /* Margen para la lista */
+    padding: 0;
+}
+
+.menu-section li {
+    margin-bottom: 0.5rem; /* Espaciado entre elementos */
+    font-size: 1rem;
+    color: #555;
+}
+/* Pie de página */
+.footer {
+    text-align: center;
+    background-color: #8b6f48;
+    color: #fff;
+    padding: 1rem 0;
+}
